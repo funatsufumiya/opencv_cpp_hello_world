@@ -2,6 +2,7 @@
 set -e
 
 CMAKE=/mingw64/bin/cmake.exe
+CMAKE_MAKE_PROGRAM=/mingw64/bin/make.exe
 CMAKE_C_COMPILER=/mingw64/bin/gcc.exe
 CMAKE_CXX_COMPILER=/mingw64/bin/g++.exe
 CMAKE_AR=/mingw64/bin/ar.exe
@@ -28,6 +29,10 @@ fi
 echo "Configuring CMake project..."
 $CMAKE .. \
     -G "MSYS Makefiles" \
+    -DCMAKE_MAKE_PROGRAM=$CMAKE_MAKE_PROGRAM \
+    -DCMAKE_C_COMPILER=$CMAKE_C_COMPILER \
+    -DCMAKE_CXX_COMPILER=$CMAKE_CXX_COMPILER \
+    -DCMAKE_AR=$CMAKE_AR \
     -DCMAKE_BUILD_TYPE=Release \
     -DOpenCV_DIR=$OPENCV_DIR
 
