@@ -1,4 +1,4 @@
-# opencv_cpp_hello_world
+# OpenCV C++ Hello World
 
 <!-- ![screenshot](./screenshot.png) -->
 
