@@ -9,6 +9,8 @@ $ ./scripts/build_with_vcpkg.sh
 $ ./scripts/run.sh
 ```
 
+NOTE: This can be used build with MSVC on git-bash on Windows. CMake is required.
+
 ## (Option 2) Build with Homebrew (macOS)
 
 ```bash
