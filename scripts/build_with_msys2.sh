@@ -2,6 +2,9 @@
 set -e
 
 CMAKE=/mingw64/bin/cmake.exe
+CMAKE_C_COMPILER=/mingw64/bin/gcc.exe
+CMAKE_CXX_COMPILER=/mingw64/bin/g++.exe
+CMAKE_AR=/mingw64/bin/ar.exe
 
 # Check if running in MSYS2 environment
 if [[ "$(uname -o)" != "Msys" ]]; then
