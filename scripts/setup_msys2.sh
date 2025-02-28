@@ -20,8 +20,16 @@ pacman -S --noconfirm \
     mingw-w64-x86_64-ninja \
     git
 
-# Install OpenCV
-echo "Installing OpenCV..."
-pacman -S --noconfirm mingw-w64-x86_64-opencv
+# # Install OpenCV
+# echo "Installing OpenCV..."
+# pacman -S --noconfirm mingw-w64-x86_64-opencv
+
+# Install OpenCV and Qt dependencies
+echo "Installing OpenCV and Qt dependencies..."
+pacman -S --noconfirm \
+    mingw-w64-x86_64-opencv \
+    mingw-w64-x86_64-qt6-base \
+    mingw-w64-x86_64-qt6-multimedia \
+    mingw-w64-x86_64-qt6-svg
 
 echo "MSYS2 setup completed successfully!"
