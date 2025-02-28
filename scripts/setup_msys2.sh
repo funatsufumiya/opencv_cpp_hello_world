@@ -18,8 +18,7 @@ pacman -S --noconfirm \
     mingw-w64-x86_64-cmake \
     mingw-w64-x86_64-make \
     mingw-w64-x86_64-ninja \
-    git \
-    cmake
+    git
 
 # Install OpenCV
 echo "Installing OpenCV..."
