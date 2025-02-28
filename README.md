@@ -2,8 +2,6 @@
 
 ## (Option 1) Build with vcpkg
 
-NOTE: This takes much time than other methods. But most stable and compatible with many environments.
-
 ```bash
 $ ./scripts/setup_vcpkg.sh
 $ ./scripts/build_with_vcpkg.sh
@@ -11,7 +9,8 @@ $ ./scripts/build_with_vcpkg.sh
 $ ./scripts/run.sh
 ```
 
-NOTE2: This can be used build with MSVC on git-bash on Windows. CMake is required.
+- **NOTE (1)**: This takes much time than other methods. But most stable and compatible with many environments.
+- **NOTE (2)**: This can be used build with MSVC on git-bash on Windows. CMake is required.
 
 ## (Option 2) Build with Homebrew (macOS)
 
@@ -24,6 +23,8 @@ $ ./scripts/run.sh
 
 ## (Option 3) Build with msys2 (Windows)
 
+**NOTE**: run with MSYS2 ***MINGW64*** shell.
+
 ```bash
 $ ./scripts/setup_msys2.sh
 $ ./scripts/build_with_msys2.sh
@@ -32,6 +33,7 @@ $ ./scripts/run.sh
 ```
 
 ## (Option 4) Build with apt (Linux/Ubuntu)
+
 ```bash
 $ ./scripts/setup_apt.sh
 $ ./scripts/build_with_apt.sh
