@@ -28,8 +28,9 @@ fi
 # Configure and build with CMake
 echo "Configuring CMake project..."
 $CMAKE .. \
-    -G "MSYS Makefiles" \
-    -DCMAKE_MAKE_PROGRAM=$CMAKE_MAKE_PROGRAM \
+    # -G "MSYS Makefiles" \
+    # -DCMAKE_MAKE_PROGRAM=$CMAKE_MAKE_PROGRAM \
+    -G "Ninja" \
     -DCMAKE_C_COMPILER=$CMAKE_C_COMPILER \
     -DCMAKE_CXX_COMPILER=$CMAKE_CXX_COMPILER \
     -DCMAKE_AR=$CMAKE_AR \
