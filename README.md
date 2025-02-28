@@ -29,7 +29,7 @@ $ ./scripts/run.sh
 
 ## (Option 4) Build with apt (Linux/Ubuntu)
 ```bash
-$ ./scripts/setup_aptget.sh
+$ ./scripts/setup_apt.sh
 $ ./scripts/build_with_apt.sh
 
 $ ./scripts/run.sh
