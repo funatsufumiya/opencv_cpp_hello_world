@@ -22,7 +22,7 @@ fi
 # Configure and build with CMake
 echo "Configuring CMake project..."
 cmake .. \
-    -G "MSYS Makefiles" \
+    -G "Ninja" \
     -DCMAKE_BUILD_TYPE=Release \
     -DOpenCV_DIR=$OPENCV_DIR
 
