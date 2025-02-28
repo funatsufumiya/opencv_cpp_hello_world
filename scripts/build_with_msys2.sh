@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+alias cmake="/mingw64/bin/cmake.exe"
+
 # Check if running in MSYS2 environment
 if [[ "$(uname -o)" != "Msys" ]]; then
     echo "This script must be run in an MSYS2 environment"
