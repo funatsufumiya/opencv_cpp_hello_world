@@ -11,6 +11,13 @@ $ ./scripts/setup_vcpkg.sh
 $ ./scripts/build_with_vcpkg.sh
 
 $ ./scripts/run.sh
+
+# or, using your global VCPKG_DIR
+export VCPKG_DIR=/path/to/your/vcpkg
+$ ./scripts/setup_vcpkg.sh
+$ ./scripts/build_with_vcpkg.sh
+# ...
+
 ```
 
 - **NOTE (1)**: This takes much time than other methods. But most stable and compatible with many environments.
