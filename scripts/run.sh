@@ -35,8 +35,8 @@ if [ "$IS_GITBASH" = true ]; then
 elif [ "$IS_MSYS2" = true ]; then
     echo "msys2 detected."
     cd build
-    # ./Debug/opencv_hello_world.exe
-    ./opencv_hello_world.exe
+    ./Debug/opencv_hello_world.exe
+    # ./opencv_hello_world.exe
 else
     cd build
     ./opencv_hello_world
