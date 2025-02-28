@@ -2,6 +2,8 @@
 
 ## (Option 1) Build with vcpkg
 
+NOTE: This takes much time than other methods. But most stable and compatible with many environments.
+
 ```bash
 $ ./scripts/setup_vcpkg.sh
 $ ./scripts/build_with_vcpkg.sh
@@ -9,7 +11,7 @@ $ ./scripts/build_with_vcpkg.sh
 $ ./scripts/run.sh
 ```
 
-NOTE: This can be used build with MSVC on git-bash on Windows. CMake is required.
+NOTE2: This can be used build with MSVC on git-bash on Windows. CMake is required.
 
 ## (Option 2) Build with Homebrew (macOS)
 
