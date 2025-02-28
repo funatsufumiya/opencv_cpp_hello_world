@@ -3,6 +3,8 @@ set -e
 
 if [ -z "$VCPKG_DIR" ]; then
     VCPKG_DIR=$(pwd)/vcpkg
+else
+    echo "Using vcpkg directory: $VCPKG_DIR"
 fi
 
 # Create build directory
