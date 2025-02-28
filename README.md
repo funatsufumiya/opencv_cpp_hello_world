@@ -1,5 +1,9 @@
 # opencv_cpp_hello_world
 
+<!-- ![screenshot](./screenshot.png) -->
+
+<a href="./screenshot.png"><img src="./screenshot.png" width="500px"></a>
+
 ## (Option 1) Build with vcpkg
 
 ```bash
